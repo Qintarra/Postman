@@ -78,3 +78,26 @@ response:
           }
 
 
+==================
+
+EP_5
+Method: GET
+EndPoint: /object_info_3
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': age,
+          'salary': salary,
+          'family': {'children': [['Alex', 24], ['Kate', 12]],
+                     'pets': {'cat':{'name':'Sunny',
+                                     'age': 3},
+                              'dog':{'name':'Luky',
+                                     'age': 4}},
+                     'u_salary_1_5_year': salary * 4}
+          }
+
+
