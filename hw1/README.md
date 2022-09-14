@@ -101,3 +101,19 @@ response:
           }
 
 
+==================
+
+EP_6
+Method: GET
+EndPoint: /object_info_4
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': int(age),
+          'salary': [salary, str(salary * 2), str(salary * 3)]}
+
+
