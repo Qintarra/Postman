@@ -126,15 +126,16 @@ response:
 
 ==================
 
-EP_7
-Method: POST
-EndPoint: /user_info_2
-request form data: 
- name: str
- age: int
- salary: int
+#### EP_7
+Method: POST  
+EndPoint: */user_info_2*  
+request form data:   
+ name: str  
+ age: int  
+ salary: int  
 
-response: 
+response:  
+```
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
@@ -144,3 +145,4 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
+```
