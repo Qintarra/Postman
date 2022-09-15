@@ -10,13 +10,13 @@ Port: 5005
 
 #### EP_1  
 Method: GET  
-EndPoint: /get_method  
+EndPoint: */get_method*  
 request url params:   
  name: str  
  age: int  
 
 response:  
-```c#  
+```js  
 [  
     “str”,  
     “int”  
@@ -27,7 +27,7 @@ response:
 
 #### EP_2  
 Method: POST  
-EndPoint: /user_info_3  
+EndPoint: */user_info_3*  
 request form data:   
  name: str  
  age: int  
@@ -44,20 +44,21 @@ response:
 
 ==================
 
-EP_3
-Method: GET
-EndPoint: /object_info_1
-request url params: 
- name: str
- age: int
- weight: int
+#### EP_3  
+Method: GET  
+EndPoint: */object_info_1*  
+request url params:   
+ name: str  
+ age: int  
+ weight: int  
 
-response: 
+response:   
+```js
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
-
+```
 
 ==================
 
