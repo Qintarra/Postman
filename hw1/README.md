@@ -25,21 +25,22 @@ response:
 
 ==================
 
-EP_2
-Method: POST
-EndPoint: /user_info_3
-request form data: 
- name: str
- age: int
- salary: int
+#### EP_2  
+Method: POST  
+EndPoint: /user_info_3  
+request form data:   
+ name: str  
+ age: int  
+ salary: int  
 
-response: 
+response:
+```js  
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
-
+```
 
 ==================
 
