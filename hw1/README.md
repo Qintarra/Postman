@@ -85,15 +85,16 @@ response:
 
 ==================
 
-EP_5
-Method: GET
-EndPoint: /object_info_3
-request url params: 
- name: str
- age: int
- salary: int
+#### EP_5
+Method: GET  
+EndPoint: */object_info_3*  
+request url params:   
+ name: str  
+ age: int  
+ salary: int  
 
-response: 
+response:  
+```js 
 {'name': name,
           'age': age,
           'salary': salary,
@@ -104,7 +105,7 @@ response:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
-
+```
 
 ==================
 
