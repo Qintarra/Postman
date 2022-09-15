@@ -15,11 +15,13 @@ request url params:
  name: str  
  age: int  
 
-response:   
+response:  
+```  
 [  
     “str”,  
     “int”  
 ]  
+```
 
 ==================
 
