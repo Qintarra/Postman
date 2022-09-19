@@ -11,7 +11,7 @@ http://162.55.220.72:5005/user_info_3
 1. Send request.
 2. Status code is 200.
 3. Parse response body to json.
-4. Check that a name in response equals a name in request (type a name manually).
+4. Check that a `name` in response equals a `name` in request (type a `name` manually).
 5. Check that age in response equals age in request (type age manually).
 6. Check that a salary in response equals a salary in request (type a salary manually).
 7. Parse request.
