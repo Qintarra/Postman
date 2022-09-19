@@ -55,3 +55,23 @@ http://162.55.220.72:5005/object_info_4
 17. Pass the variable salary to the environment.
 18. Write a loop that prints the elements of a list from a salary parameter to the console in order.
 
+http://162.55.220.72:5005/user_info_2
+1. Send request.
+2. Status code is 200.
+3. Parse response body to json.
+4. Parse request.
+5. Check that json response has start_qa_salary parameter.
+6. Check that json response has qa_salary_after_6_months parameter.
+7. Check that json response has qa_salary_after_12_months parameter.
+8. Check that json response has qa_salary_after_1.5_year parameter.
+9. Check that json response has qa_salary_after_3.5_years parameter.
+10. Check that json response has person parameter.
+11. Check that start_qa_salary parameter equals salary from request (take a salary from request).
+12. Check that qa_salary_after_6_months parameter equals salary*2 from request (take a salary from request).
+13. Check that qa_salary_after_12_months parameter equals salary*2.7 from request (take a salary from request).
+14. Check that qa_salary_after_1.5_year parameter equals salary*3.3 from request (take a salary from request).
+15. Check that qa_salary_after_3.5_years parameter equals salary*3.8 from request (take a salary from request).
+16. Check that 1-st element from u_name in person parameter equals salary from request (take a salary from request).
+17. Check that u_age parameter equals age from request (take age from request).
+18. Check that u_salary_5_years parameter equals salary*4.2 from request (take a salary from request).
+19. Write a loop that prints the elements of the list from the person parameter to the console in order.
