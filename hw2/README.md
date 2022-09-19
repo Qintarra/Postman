@@ -26,14 +26,14 @@ http://162.55.220.72:5005/object_info_3
 2. Status code is **200**.
 3. Parse response body to json.
 4. Parse request.
-5. Check that a name in response equals a name in request (take a name from request).
-6. Check that age in response equals age in request (take age from request).
-7. Check that a salary in response equals a salary in request (take a salary from request).
-8. Output the family parameter from response to console.
-9. Check that dog parameter has a name parameter.
-10. Check that dog parameter has an age parameter.
-11. Check that name parameter has the value Luky.
-12. Check that age parameter has a value 4.
+5. Check that a `name` in response equals a `name` in request (take a `name` from request).
+6. Check that *age* in response equals *age* in request (take *age* from request).
+7. Check that a *salary* in response equals a *salary* in request (take a *salary* from request).
+8. Output the *family* parameter from response to console.
+9. Check that *dog* parameter has a *name* parameter.
+10. Check that *dog* parameter has an *age* parameter.
+11. Check that *name* parameter has the value *Luky*.
+12. Check that *age* parameter has a value **4**.
 
 http://162.55.220.72:5005/object_info_4
 1. Send request.
