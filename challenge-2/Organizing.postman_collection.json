@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "848f075e-371f-4969-a1ef-109f62ccabce",
+		"name": "SampleAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18978832"
+	},
+	"item": [
+		{
+			"name": "Tickets",
+			"item": [
+				{
+					"name": "List Tickets for Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/boards/4af02b20-0e35-11e9-86bb-a1378ad71a65/tickets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"boards",
+								"4af02b20-0e35-11e9-86bb-a1378ad71a65",
+								"tickets"
+							]
+						},
+						"description": "Gets a list of the tickets for a Board"
+					},
+					"response": []
+				}
+			],
+			"description": "The Tickets folder contains requests for managing Tickets in the sample API."
+		}
+	]
+}
