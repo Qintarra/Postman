@@ -11,4 +11,4 @@ You can run your collection in *Postman* or with *newman* from the command line:
 open a command prompt in your working directory where your postman collection and environment are located and run the following command    
 ```newman run Contact_List.postman_collection.json -e Contact_List.postman_environment.json```
 
-![newman run](/Postman/training-2/newman_run_screenshot.jpg "test")
+![newman run](/training-2/newman_run_screenshot.jpg "test")
